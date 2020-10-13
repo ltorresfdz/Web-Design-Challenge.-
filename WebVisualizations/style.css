@@ -1,0 +1,246 @@
+
+/* Styling for HTML elements */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #e7e6e5;
+  }
+  
+  .header {
+    height: 70px;
+    /* padding-top: 20px; */
+    background: #16a173;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  h2 {
+    font-size: 40px;
+    text-align: left;
+    color: #16a173;
+    margin-left: 0%;
+    padding-top:60 px;
+    padding-bottom: 30px;
+  }
+
+  h3 {
+    font-size: 35px;
+    text-align: center;
+    color: #16a173;
+    margin-top: 5%;
+    margin-left: 0%;
+    padding-top: 100 px;
+    padding-bottom: 30px;
+  }
+
+  
+  a {
+    color: #d21034;
+  }
+  
+
+  img:hover {
+    border: 10px solid;
+    border-color:  #16a173;
+  }
+  img:active {
+    border-color: blue;}
+
+
+  /* Selecting elements by class */
+  
+  .img-1 {
+    border: 10px solid;
+    border-color: #16a173;;
+  }
+  
+  .box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #2db34a;
+    border: 2px solid black;
+  }
+  
+  .box-1 {
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+  }
+  
+  .box-2 {
+    bottom: 10px;
+    left: 70px;
+    z-index: 3;
+  }
+  
+  .box-3 {
+    top: 10px;
+    left: 130px;
+    z-index: 2;
+  }
+  
+  .box-4 {
+    bottom: 10px;
+    left: 190px;
+    z-index: 1;
+  }
+  
+ 
+.p1 {
+  margin-left: 15%;
+
+}
+
+
+
+  /* Selecting elements by ID */
+#main-bio
+ {
+  background: rgb(255,255,255);
+  float: left;
+}
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#figure {
+  position: relative;
+}
+
+#bio-name {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+#bio-image {
+  width: 350px;
+  height: 350px;
+  margin-right: 0px;
+  float: left;
+}
+
+#image_max {
+  width: 350px;
+  height: 350px;
+  margin-left: 25%;
+    float: top;
+}
+
+#blanco {
+  background:rgb(255,255,255) ;
+}
+
+#big-font {
+  font-size: 40px;
+}
+
+#paraabajo {
+  margin-top: 30px;
+}
+
+.p-1 {
+  margin: 19px 0px 0px 0px; 
+}
+
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+
+
+.Cuadro {
+  margin-top: 20%;
+  margin-left: 42%;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: show; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 10;
+  left: 10;
+  right: 10;
+  bottom: 10;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+#MAXTEMP {
+  width: 250px;
+  height: 250px;
+  margin-left: 25%;
+    float: top;
+
+
+}
+
+#nav-select {
+  visibility: hidden;
+}
+
+
+@media (max-width: 700px) {
+  .navbar li {
+    padding: 5px;
+  }
+
+   /* .navbar ul {
+    visibility: hidden;
+  } */
+
+  #nav-select {
+    visibility: visible;
+    background: #16a173;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: left;
+    color: #16a173;
+    margin-left: 0%;
+    padding-top:60 px;
+    padding-bottom: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+    text-align: center;
+    color: #16a173;
+    margin-top: 5%;
+    margin-left: 0%;
+    padding-top: 100 px;
+    padding-bottom: 30px;
+  }
+
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background: #16a173;
+  }
+
+
+}
